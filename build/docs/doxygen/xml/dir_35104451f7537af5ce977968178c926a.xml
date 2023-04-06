@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_35104451f7537af5ce977968178c926a" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="phy__header__pydoc__template_8h">phy_header_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

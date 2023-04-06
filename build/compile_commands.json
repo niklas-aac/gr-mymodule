@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/inets/Workspace/OOT_modules/gr-mymodule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFFTW3F_THREADS -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dgnuradio_mymodule_EXPORTS -I/home/inets/Workspace/OOT_modules/gr-mymodule/lib/../include -isystem /usr/include/python3.8   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC   -std=c++17 -o CMakeFiles/gnuradio-mymodule.dir/phy_header_impl.cc.o -c /home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.cc",
+  "file": "/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.cc"
+},
+{
+  "directory": "/home/inets/Workspace/OOT_modules/gr-mymodule/build/python/mymodule/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFFTW3F_THREADS -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dmymodule_python_EXPORTS -I/home/inets/Workspace/OOT_modules/gr-mymodule/build/python/mymodule/bindings -I/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/../../../lib -I/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/../../../include -I/home/inets/Workspace/OOT_modules/gr-mymodule/lib/../include -isystem /usr/include/python3.8 -isystem /usr/lib/python3/dist-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/mymodule_python.dir/phy_header_python.cc.o -c /home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/phy_header_python.cc",
+  "file": "/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/phy_header_python.cc"
+},
+{
+  "directory": "/home/inets/Workspace/OOT_modules/gr-mymodule/build/python/mymodule/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFFTW3F_THREADS -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dmymodule_python_EXPORTS -I/home/inets/Workspace/OOT_modules/gr-mymodule/build/python/mymodule/bindings -I/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/../../../lib -I/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/../../../include -I/home/inets/Workspace/OOT_modules/gr-mymodule/lib/../include -isystem /usr/include/python3.8 -isystem /usr/lib/python3/dist-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/mymodule_python.dir/python_bindings.cc.o -c /home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/python_bindings.cc",
+  "file": "/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/bindings/python_bindings.cc"
+}
+]

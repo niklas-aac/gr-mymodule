@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacegr_1_1mymodule" kind="namespace" language="C++">
+    <compoundname>gr::mymodule</compoundname>
+    <innerclass refid="classgr_1_1mymodule_1_1phy__header" prot="public">gr::mymodule::phy_header</innerclass>
+    <innerclass refid="classgr_1_1mymodule_1_1phy__header__impl" prot="public">gr::mymodule::phy_header_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/phy_header.h" line="17" column="20"/>
+  </compounddef>
+</doxygen>

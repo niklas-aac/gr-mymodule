@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_955f43048c6f7384681638f7b56a4eef" kind="dir">
+    <compoundname>mymodule</compoundname>
+    <innerdir refid="dir_eee0640cb26e399ec3fdb383e19712db">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/python/mymodule/"/>
+  </compounddef>
+</doxygen>

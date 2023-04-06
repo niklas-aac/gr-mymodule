@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/api.h
+gnuradio/attributes.h
+-
+
+/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/phy_header.h
+/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/api.h
+-
+gnuradio/digital/packet_header_default.h
+-
+
+/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.cc
+config.h
+/home/inets/Workspace/OOT_modules/gr-mymodule/lib/config.h
+phy_header_impl.h
+/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h
+iostream
+-
+string.h
+-
+
+/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h
+/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/phy_header.h
+-
+boost/enable_shared_from_this.hpp
+-
+boost/crc.hpp
+-
+boost/cstdint.hpp
+-
+gnuradio/tags.h
+-
+gnuradio/digital/api.h
+-
+

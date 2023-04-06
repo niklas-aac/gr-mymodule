@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1mymodule_1_1phy__header__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mymodule::phy_header_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mymodule_1_1phy__header" prot="public" virt="non-virtual">gr::mymodule::phy_header</basecompoundref>
+    <includes refid="phy__header__impl_8h" local="no">phy_header_impl.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mymodule_1_1phy__header__impl_1a413d97272ad97f35d78cd824d0e04b41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mymodule::phy_header_impl::get_bit</definition>
+        <argsstring>(int byte, int index)</argsstring>
+        <name>get_bit</name>
+        <param>
+          <type>int</type>
+          <declname>byte</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" line="25" column="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mymodule_1_1phy__header__impl_1af9d9e0171b1f9dbb8fb664be8ada03c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mymodule::phy_header_impl::phy_header_impl</definition>
+        <argsstring>()</argsstring>
+        <name>phy_header_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" line="28" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mymodule_1_1phy__header__impl_1a769247e78b4363b008e4b28eb32c8754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mymodule::phy_header_impl::~phy_header_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~phy_header_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" line="29" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mymodule_1_1phy__header__impl_1a9ad4c67afb4ade7eabdcfb310c4fe156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::mymodule::phy_header_impl::header_formatter</definition>
+        <argsstring>(long packet_len, unsigned char *out, const std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
+        <name>header_formatter</name>
+        <param>
+          <type>long</type>
+          <declname>packet_len</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" line="31" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mymodule::phy_header</label>
+        <link refid="classgr_1_1mymodule_1_1phy__header"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mymodule::phy_header_impl</label>
+        <link refid="classgr_1_1mymodule_1_1phy__header__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>digital::packet_header_default</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mymodule::phy_header</label>
+        <link refid="classgr_1_1mymodule_1_1phy__header"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mymodule::phy_header_impl</label>
+        <link refid="classgr_1_1mymodule_1_1phy__header__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>digital::packet_header_default</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" line="23" column="1" bodyfile="/home/inets/Workspace/OOT_modules/gr-mymodule/lib/phy_header_impl.h" bodystart="22" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mymodule_1_1phy__header__impl_1a413d97272ad97f35d78cd824d0e04b41" prot="private" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>get_bit</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header__impl_1a9ad4c67afb4ade7eabdcfb310c4fe156" prot="public" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>header_formatter</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header_1ace7175ace6f2bc7571f36ff13d332c85" prot="public" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header_1aeb3ea209c62c89daeb93bd4883517cca" prot="protected" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>phy_header</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header__impl_1af9d9e0171b1f9dbb8fb664be8ada03c1" prot="public" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>phy_header_impl</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header_1a481193589b8c799a765f1f07c6b0b3b6" prot="public" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mymodule_1_1phy__header__impl_1a769247e78b4363b008e4b28eb32c8754" prot="public" virt="non-virtual"><scope>gr::mymodule::phy_header_impl</scope><name>~phy_header_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
