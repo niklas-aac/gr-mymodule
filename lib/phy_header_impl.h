@@ -9,7 +9,7 @@
 #ifndef INCLUDED_MYMODULE_PHY_HEADER_IMPL_H
 #define INCLUDED_MYMODULE_PHY_HEADER_IMPL_H
 
-#include "/home/inets/Workspace/OOT_modules/gr-mymodule/include/gnuradio/mymodule/phy_header.h"
+#include <mymodule/phy_header.h>
 #include <boost/enable_shared_from_this.hpp>
 #include <boost/crc.hpp>
 #include <boost/cstdint.hpp>
