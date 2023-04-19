@@ -9,7 +9,7 @@
 #ifndef INCLUDED_MYMODULE_PHY_HEADER_H
 #define INCLUDED_MYMODULE_PHY_HEADER_H
 
-#include <phy_header/api.h>
+#include <gnuradio/mymodule/api.h>
 #include <gnuradio/digital/packet_header_default.h>
 // #include <gnuadio/block.h>
 
